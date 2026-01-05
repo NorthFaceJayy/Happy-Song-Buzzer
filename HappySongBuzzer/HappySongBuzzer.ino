@@ -14,7 +14,7 @@ SSD1306AsciiWire oled;
 #define BuzzV1 10 // buzzer to play the violin1 part (main melody)
 #define BuzzV2 8 // buzzer to play the violin2 part (counter-melody)
 #define capPin 2
-#define NAME "  *NAME*!"
+#define NAME "  *Johan*!"
 
 /**************************** GLOBAL VARIABLES ***************************/
 
@@ -91,7 +91,7 @@ void setup() {
   uint32_t m = micros();
   oled.clear();
   oled.set1X();
-  oled.println("         2024   ");
+  oled.println("         2027   ");
   oled.println();
   oled.set2X();
   oled.println("   HAPPY");
@@ -116,7 +116,7 @@ void loop() {
   while(digitalRead(capPin) == 0);
   oled.clear();
   oled.set1X();
-  oled.println("         2024   ");
+  oled.println("         2027   ");
   oled.println();
   oled.set2X();
   oled.println("   HAPPY");
